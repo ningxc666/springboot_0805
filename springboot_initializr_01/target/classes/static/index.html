@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+    hello index
+    <br>
+    <a href="/user/1/owner/ningxc?username=ningxc&password=123456" methods="get">get User</a>
+    <br>
+    <form action="/user" method="post">
+        <input type="hidden" name="_method" value="delete" >
+        <input type="submit" value="delete user">
+    </form>
+    <br>
+    <form action="/user" method="post">
+        <input type="hidden" name="_method" value="PUT">
+        <input type="submit" value="update user">
+    </form>
+    <br>
+    <form action="/user" method="post">
+        用户名：<input type="text" name="username">
+        密码：<input type="password" name="password">
+        <input type="submit" value="save user">
+    </form>
+
+    <a href="/goto">goto</a>
+    <br>
+    <a href="/cars/sell;low=23;brand=byd,yd,ad">matrixVariable_first</a>
+    <br>
+    <a href="/cars/sell;low=23;brand=byd;brand=ad;brand=bz">matrixVariable_second</a>
+    <br>
+    <a href="/boss/1;age=53/2;age=34">matrixVariable_third</a>
+    <br>
+</body>
+</html>

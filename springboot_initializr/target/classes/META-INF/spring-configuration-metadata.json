@@ -1,0 +1,57 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.example.boot.bean.Person",
+      "sourceType": "com.example.boot.bean.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.all-pets",
+      "type": "java.util.Map<java.lang.String,java.util.List<com.example.boot.bean.Pet>>",
+      "sourceType": "com.example.boot.bean.Person"
+    },
+    {
+      "name": "person.animal",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.example.boot.bean.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.example.boot.bean.Person"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.example.boot.bean.Person"
+    },
+    {
+      "name": "person.interests",
+      "type": "java.lang.String[]",
+      "sourceType": "com.example.boot.bean.Person"
+    },
+    {
+      "name": "person.pet",
+      "type": "com.example.boot.bean.Pet",
+      "sourceType": "com.example.boot.bean.Person"
+    },
+    {
+      "name": "person.salarys",
+      "type": "java.util.Set<java.lang.Double>",
+      "sourceType": "com.example.boot.bean.Person"
+    },
+    {
+      "name": "person.score",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.example.boot.bean.Person"
+    },
+    {
+      "name": "person.username",
+      "type": "java.lang.String",
+      "sourceType": "com.example.boot.bean.Person"
+    }
+  ],
+  "hints": []
+}

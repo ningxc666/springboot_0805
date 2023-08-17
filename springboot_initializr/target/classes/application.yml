@@ -1,0 +1,40 @@
+person:
+  boss: true
+  birth: 1996/03/23
+  pet:
+    name: 猫
+    weight: 99
+# String[] interests;
+  interests:
+    - 篮球
+    - 足球
+    - 棒球
+#  List<String> animal;
+  animal: [猫,狗]
+#  Map<String, Object> score;
+#  score:
+#    english: 99
+#    math: 98
+  score: {english: 99,math: 98}
+# Set<Double> salarys;
+  salarys:
+    - 12000
+    - 13000
+# Map<String, List<Pet>> allPets
+  allPets:
+    health:
+      - {name: 哗哗, weight: 99}
+      - name: 呵呵
+        weight: 98
+      - name: 嘻嘻
+        weight: 96
+    sick:
+      - {name: 冰冰, weight: 99}
+      - {name: 莎莎, weight: 99}
+  username: ningxc
+spring:
+  banner:
+    charset: GBK
+  cache:
+    type: redis
+
